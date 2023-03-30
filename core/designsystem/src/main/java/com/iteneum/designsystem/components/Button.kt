@@ -11,9 +11,9 @@ import androidx.compose.ui.unit.dp
 //recordatorio: cuando haga el push, no incluir el import de Example en el gradel de App
 //recibir HigOrderFunction = onclick, modifiers y el texto
 
-@Preview()
+
 @Composable
-fun LpOutlineButton(onClick: () -> Unit, textButtonDescription: String, modifier: Modifier){
+fun LpFilledTonalButton(onClick: () -> Unit, textButtonDescription: String, modifier: Modifier){
     Button(onClick = onClick,
         modifier,
         shape = RoundedCornerShape(12.dp),
